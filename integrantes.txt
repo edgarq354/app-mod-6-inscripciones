@@ -1,0 +1,15 @@
+Practica 2 Vue3
+
+Nombre(s) de integrante(s):
+- Edgar Elio Quiñones Quiroga
+- Sara Mabel Siles Calderon
+
+Pasos para iniciar el proyecto
+1) npm install
+2) npm run serve
+3) Ingresar a la ruta ./DB
+   ejecutar en otra terminal : json-server --watch db.json
+
+
+USUARIO: edgar@cursos.com
+CONTRASEÑA: 123456

@@ -1,0 +1,112 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Edgar Elio Quiñones Quiroga",
+      "rol": "administrador",
+      "email": "edgar@cursos.com"
+    },
+    {
+      "id": 2,
+      "nombre": "Sara Mabel Siles Calderon",
+      "rol": "registro",
+      "email": "sara@cursos.com"
+    }
+  ],
+  "estudiantes": [
+    {
+      "id": 1,
+      "nombre": "Luis Perez Lopez",
+      "email": "luis.perez@email.com",
+      "telefono": 75602869,
+      "direccion": "Montero."
+    },
+    {
+      "id": 2,
+      "nombre": "Maria Lopez",
+      "email": "maria.lopez@email.com",
+      "telefono": 75602869,
+      "direccion": "La Paz"
+    }
+  ],
+  "docentes": [
+    {
+      "id": 1,
+      "nombre": "Dra. Ana Torres",
+      "email": "ana.torres@email.com",
+      "telefono": 75602869,
+      "direccion": "Warnes"
+    },
+    {
+      "id": 2,
+      "nombre": "Ing. Luis Gómez",
+      "email": "luis.gomez@email.com",
+      "telefono": 75622200,
+      "direccion": "Satelite"
+    }
+  ],
+  "cursos": [
+    {
+      "id": 1,
+      "nombre": "Matemáticas",
+      "descripcion": "Álgebra y geometría",
+      "docenteId": 1 
+    },
+    {
+      "id": 2,
+      "nombre": "Programación",
+      "descripcion": "JavaScript básico",
+      "docenteId": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Historia",
+      "descripcion": "Historia universal",
+      "docenteId": 1
+    },
+    {
+      "docenteId": 1,
+      "nombre": "casa",
+      "descripcion": "asdf",
+      "id": 4
+    }
+  ],
+  "inscripciones": [
+    {
+      "id": 1,
+      "estudianteId": 1,
+      "cursoId": 1,
+      "tipo": "PAGO",
+      "fecha": "2025-07-25",
+      "descripcion": "pagado",
+      "monto": 200
+    },
+    {
+      "id": 2,
+      "estudianteId": 1,
+      "cursoId": 2,
+      "tipo": "PAGO",
+      "fecha": "2025-07-25",
+      "descripcion": "Pago de inscripción",
+      "monto": 500
+    },
+    {
+      "id": 3,
+      "estudianteId": 2,
+      "cursoId": 2,
+      "tipo": "GRATIS",
+      "fecha": "2025-07-25",
+      "descripcion": "Pago de inscripción",
+      "monto": 100
+    },
+    {
+      "cursoId": 4,
+      "estudianteId": 2,
+      "tipo": "PAGO",
+      "monto": 234,
+      "descripcion": "afasdf",
+      "fecha": "2025-07-25",
+      "id": 4
+    }
+  ]
+}
