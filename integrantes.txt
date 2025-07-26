@@ -9,7 +9,9 @@ Pasos para iniciar el proyecto
 2) npm run serve
 3) Ingresar a la ruta ./DB
    ejecutar en otra terminal : json-server --watch db.json
+   si no da con: json-server --watch .\DB\db.json
 
-
+Sino funciona el modulo de Curso y Inscripcion, favor instalar json-server el oficial y no el beta: npm install -g json-server@0.17.4
+ 
 USUARIO: edgar@cursos.com
 CONTRASEÑA: 123456
